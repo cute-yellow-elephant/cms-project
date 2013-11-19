@@ -1,0 +1,24 @@
+C:\Users\Julia\Documents\Visual Studio 2012\Projects\CMSProject\CMSProject\bin\Debug\CMSProject.exe.config
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\CMSProject.exe.config
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\CMSProject.exe
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\CMSProject.pdb
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\EntityFramework.dll
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\EntityFramework.SqlServer.dll
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\EntityFramework.xml
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\EntityFramework.SqlServer.xml
+D:\workwork\cms-project\CMSProject\CMSProject\obj\Debug\CMSProject.csprojResolveAssemblyReference.cache
+D:\workwork\cms-project\CMSProject\CMSProject\obj\Debug\CMSProject.exe
+D:\workwork\cms-project\CMSProject\CMSProject\obj\Debug\CMSProject.pdb
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\AppCore.dll
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\Domain.dll
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\Infrastructure.dll
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\SqlRepository.dll
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\Ninject.dll
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\NLog.dll
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\AppCore.pdb
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\Domain.pdb
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\Infrastructure.pdb
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\SqlRepository.pdb
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\Ninject.pdb
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\Ninject.xml
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\NLog.xml
