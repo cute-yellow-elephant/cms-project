@@ -45,5 +45,10 @@ namespace SqlRepository.Repositories
                     return x;
             return null;
         }
+
+        public override void Delete(Guid id)
+        {
+            this._table.Remove(this._table.Find(id));
+        }
     }
 }

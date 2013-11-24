@@ -1,0 +1,44 @@
+﻿@model ApointMvcApp.Models.CreateRoleModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Создать роль</title>
+</head>
+<body>
+    <h1>Создать роль</h1>
+    <div>
+        @using (Html.BeginForm()) 
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
+
+            <fieldset>
+                <legend>Форма для создания роли</legend>
+                <ol>
+                    <li>
+                        @Html.LabelFor(m => m.RoleName)
+                        @Html.TextBoxFor(m => m.RoleName)
+                        @Html.ValidationMessageFor(m => m.RoleName)
+                    </li>
+                </ol>
+                <input type="submit" value="Создать роль" />
+                </fieldset>
+        }       
+    </div>>
+    <p>@Html.RouteLink("Вернуться на главную админа", "AdminMainPage")</p>
+    <p>
+        @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" })) 
+        {
+            @Html.AntiForgeryToken()
+            <a href="javascript:document.getElementById('logoutForm').submit()">Разлогиниться</a>
+        }
+    </p>
+</body>
+</html>

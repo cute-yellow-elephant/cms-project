@@ -1,0 +1,44 @@
+﻿@model ApointMvcApp.Models.RegisterModel
+
+@{
+    Layout = null;
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>Создайте новый аккаунт.</h2>
+</hgroup>
+
+@using (Html.BeginForm(new { email = ViewBag.Email, verifyingID = ViewBag.VerifyingID }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    <fieldset>
+        <legend>Форма регистрации</legend>
+        <ol>
+            <li>
+                @Html.LabelFor(m => m.Login)
+                @Html.TextBoxFor(m => m.Login)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Email)
+                @Html.TextBoxFor(m => m.Email)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Password)
+                @Html.PasswordFor(m => m.Password)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.ConfirmPassword)
+                @Html.PasswordFor(m => m.ConfirmPassword)
+            </li>
+        </ol>
+        <input type="submit" value="Register" />
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

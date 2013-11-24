@@ -26,7 +26,7 @@ namespace AppCore.EntitiesBC
                 var c = _entityRepository.Find(name);
                 _logger.WriteProgramWorkflow(String.Format("New role was added: {0}, {1}", c.Name, c.ID));
             }
-            catch (Exception error) { _logger.WriteIfErrorOccured(error.Message); }
+            catch (Exception error) { _logger.WriteIfErrorOccured(error.Message); throw new Exception(error.Message); }
         }
     }
 }

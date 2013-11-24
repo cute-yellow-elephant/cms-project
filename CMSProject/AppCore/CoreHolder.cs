@@ -20,6 +20,8 @@ namespace AppCore
         private DBContextContainer _dbcontext;
         public UserBC UserRepository { get; set; }
         public RoleBC RoleRepository { get; set; }
+        public ProfileBC ProfileRepository { get; set; }
+        public VerificationBC VerificationRepository { get; set; }
 
         public void Submit()
         {
@@ -30,15 +32,23 @@ namespace AppCore
         {
             UserRepository = new UserBC(_logger, _dbcontext);
             RoleRepository = new RoleBC(_logger, _dbcontext);
+            ProfileRepository = new ProfileBC(_logger, _dbcontext);
+            VerificationRepository = new VerificationBC(_logger, _dbcontext);
+
         }
 
         public CoreHolder()
         {
             var serviceLocator = new StandardKernel(new NinjectLoggerCreator());
             _logger = serviceLocator.Get<ILogger>();
-            Database.SetInitializer<DBContextContainer>(new DBInitializer());
+            InitializeDbIfNotExists();
             _dbcontext = new DBContextContainer();
             InitializeRepositories();
+        }
+
+        public static void InitializeDbIfNotExists()
+        {
+            Database.SetInitializer<DBContextContainer>(new DBInitializer());
         }
 
     }

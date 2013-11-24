@@ -17,15 +17,8 @@ namespace SqlRepository.Repositories
         {
             var en = this.Find(entity.Login);
             if (en != null)
-                throw new Exception("The user " + en.Login + " already exists in the database");
+                throw new Exception(String.Format("Пользователь с логином {0} уже зарегистрирован в системе", entity.Login));
             base.Create(entity);
-        }
-
-        public override User Read(Guid id)
-        {
-            if (_table.Find(id) == null)
-                return null;
-            return base.Read(id);
         }
 
         public override void Update(User entity)

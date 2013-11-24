@@ -1,0 +1,31 @@
+﻿@{
+    Layout = null;
+    ViewBag.Title = "Главная - пользователь";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Главная - администратор</title>
+</head>
+<body>
+    <div>
+        <h2>Вы находитесь на главной странице обычного пользователя данного приложения.</h2>
+        <h3>По идее, вы что-то можете делать, но пока что хз что. </h3>
+        <h4>Развлекайтесь.</h4>
+        <ol>
+            @if(HttpContext.Current.User.IsInRole("Admin")){
+                <li>@Html.RouteLink("На главную администратора", "AdminMainPage")</li>}
+            <li>
+                 @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" })) 
+                 {
+                    @Html.AntiForgeryToken()
+                    <a href="javascript:document.getElementById('logoutForm').submit()">Разлогиниться</a>
+                 }
+            </li>
+        </ol>        
+    </div>
+</body>
+</html>

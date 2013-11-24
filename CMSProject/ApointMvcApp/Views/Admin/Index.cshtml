@@ -1,0 +1,36 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Главная - администратор</title>
+</head>
+<body>
+    <div>
+        <h2>Вы находитесь на главной странице администратора данного приложения.</h2>
+        <h3>И у вас, возрадуйтесь, даже есть какие-то функции. </h3>
+        <h4>Да, их список немного ниже.</h4>
+        <ol>
+            <li>@Html.RouteLink("На главную обычного пользователя", "UserMainPage")</li>
+            <li>@Html.RouteLink("Создать роль", "CreateRole")</li>
+            <li>@Html.RouteLink("Удалить роль","DeleteRole")</li>
+            <li>@Html.RouteLink("Просмотреть все роли","ViewAllRoles")</li>
+            <li>@Html.RouteLink("Добавить пользователя","CreateUser")</li>
+            <li>@Html.RouteLink("Удалить пользователя","DeleteUser")</li>
+            <li>@Html.RouteLink("Просмотреть всех пользователей","ViewAllUsers")</li>
+            <li>
+                 @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" })) 
+                 {
+                    @Html.AntiForgeryToken()
+                    <a href="javascript:document.getElementById('logoutForm').submit()">Разлогиниться</a>
+                 }
+            </li>
+        </ol>
+        
+    </div>
+</body>
+</html>

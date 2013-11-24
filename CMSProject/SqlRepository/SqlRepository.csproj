@@ -49,9 +49,11 @@
     <Compile Include="DBContextContainer.cs" />
     <Compile Include="DBInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ProfileRepository.cs" />
     <Compile Include="Repositories\RepositoryBasis.cs" />
     <Compile Include="Repositories\RoleRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Repositories\VerificationRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj">

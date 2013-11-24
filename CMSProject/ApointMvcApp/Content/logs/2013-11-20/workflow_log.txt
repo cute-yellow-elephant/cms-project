@@ -1,0 +1,22 @@
+2013-11-20 16:42:53.3640|Info| Application Start
+2013-11-20 16:49:58.1913|Info| Application Start
+2013-11-20 16:55:20.1808|Info| Application Start
+2013-11-20 16:56:27.8776|Info| Application Start
+2013-11-20 17:04:28.4031|Info| Application Start
+2013-11-20 17:05:16.8009|Info| Application Start
+2013-11-20 17:06:09.6239|Info| Application Start
+2013-11-20 17:07:49.6276|Info| Application Start
+2013-11-20 17:12:55.1001|Info| Application Start
+2013-11-20 17:19:55.8622|Info| Application Start
+2013-11-20 17:34:14.0942|Info| Application Start
+2013-11-20 17:37:53.7888|Info| New user was added: id=32b99ab2-8a13-4daa-801b-fa4e562da1c7, login=mimimi, is verified=Domain.User
+2013-11-20 17:46:52.3286|Info| Application Start
+2013-11-20 17:50:04.6616|Info| Application Start
+2013-11-20 17:56:45.5555|Info| Application Start
+2013-11-20 17:57:32.6322|Info| New user was added: id=4afa84e7-8a07-42a1-b17b-75a4d3e2fcfd, login=mimimi, is verified=Domain.User
+2013-11-20 21:13:40.0100|Info| Application Start
+2013-11-20 21:21:39.5124|Info| Application Start
+2013-11-20 21:26:19.8925|Info| Application Start
+2013-11-20 21:34:34.8478|Info| Application Start
+2013-11-20 21:47:49.9003|Info| Application Start
+2013-11-20 21:53:05.4283|Info| Application Start

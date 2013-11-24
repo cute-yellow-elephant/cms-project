@@ -55,5 +55,11 @@ namespace AppCore.EntitiesBC
             try { _entityRepository.Update(ent); }
             catch (Exception error) { _logger.WriteIfErrorOccured(error.Message); }
         }
+
+        public void Delete(Guid id)
+        {
+            try { _entityRepository.Delete(id); }
+            catch (Exception error) { _logger.WriteIfErrorOccured("AppCore.EntitiesBC.BaseEntityBC: "+error.Message); throw new Exception(error.Message); }
+        }
     }
 }

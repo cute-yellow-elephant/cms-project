@@ -1,0 +1,44 @@
+﻿@model ApointMvcApp.Models.CreateUserModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Создать пользователя</title>
+</head>
+<body>
+    <h1>Создать пользователя</h1>
+    <div>
+        @using (Html.BeginForm()) 
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary()
+
+            <fieldset>
+                <legend>Форма для создания пользователя</legend>
+                <ol>
+                    <li>
+                        @Html.LabelFor(m => m.Email)
+                        @Html.TextBoxFor(m => m.Email)
+
+                    </li>
+                </ol>
+                <input type="submit" value="Отправить приглашение" />
+                </fieldset>
+        }       
+    </div>
+    <p>@Html.RouteLink("Вернуться на главную админа", "AdminMainPage")</p>
+    <p>
+        @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" })) 
+        {
+            @Html.AntiForgeryToken()
+            <a href="javascript:document.getElementById('logoutForm').submit()">Разлогиниться</a>
+        }
+    </p>
+</body>
+</html>

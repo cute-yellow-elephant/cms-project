@@ -1,0 +1,20 @@
+﻿@model ApointMvcApp.Models.ConfirmationModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <h1> @Model.Message </h1>
+        <a href="http://localhost:51043/Register/@Model.Email/@Model.ID/">http://localhost:51043/Register/@Model.Email/@Model.ID/</a>
+    </div>
+</body>
+</html>

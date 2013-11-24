@@ -1,0 +1,32 @@
+﻿@model string[]
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewAllRoles</title>
+</head>
+<body>
+    <div>
+        <ol>
+        @foreach (var r in Model)
+        {
+            <li>@r</li>   
+        }
+        </ol>     
+    </div>
+    <p>@Html.RouteLink("Вернуться на главную админа", "AdminMainPage")</p>
+    <p>
+        @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" })) 
+        {
+            @Html.AntiForgeryToken()
+            <a href="javascript:document.getElementById('logoutForm').submit()">Разлогиниться</a>
+        }
+    </p>
+</body>
+</html>

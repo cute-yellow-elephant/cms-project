@@ -1,0 +1,4 @@
+2013-11-22 01:02:34.6125|Error| Адресат вызова создал исключение.
+2013-11-22 01:29:21.8065|Error| AppCore.EntitiesBC.VerificationBC.Create: The Email starshine1@mail.ru is already in the db and is waiting for verification.
+2013-11-22 01:48:34.0994|Error| AppCore.EntitiesBC.VerificationBC.Create: The Email starshine1@mail.ru is already in the db and is waiting for verification.
+2013-11-22 01:56:04.3271|Error| AppCore.EntitiesBC.VerificationBC.Create: The Email starshine1@mail.ru is already in the db and is waiting for verification.

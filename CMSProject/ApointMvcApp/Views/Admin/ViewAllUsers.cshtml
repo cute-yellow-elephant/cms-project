@@ -1,0 +1,32 @@
+﻿@model MembershipUserCollection
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View All Users</title>
+</head>
+<body>
+    <div>
+         <ol>
+        @foreach (MembershipUser r in Model)
+        {
+            <li>Login:@r.UserName / Email:@r.Email / Creation Date:@r.CreationDate / Last Visit Date:@r.LastLoginDate / Is Verified: @r.IsApproved / Is Deleted: @r.IsLockedOut </li>   
+        }
+        </ol>     
+    </div>
+    <p>@Html.RouteLink("Вернуться на главную админа", "AdminMainPage")</p>
+    <p>
+        @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" })) 
+        {
+            @Html.AntiForgeryToken()
+            <a href="javascript:document.getElementById('logoutForm').submit()">Разлогиниться</a>
+        }
+    </p>      
+</body>
+</html>

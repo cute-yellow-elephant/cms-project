@@ -1,0 +1,13 @@
+2013-11-24 12:35:18.9466|Info| Application Start
+2013-11-24 12:41:28.8928|Info| New verification guid 0e7f6d92-0727-4470-81d0-4201710e8631 has been sent to cute-yellow-elephant@ya.ru. Added to the db.
+2013-11-24 12:45:23.5502|Info| New user was added: id=8e831510-6564-4bab-813e-cfb126fdd823, login=elephant, is verified=Domain.User
+2013-11-24 13:26:04.0238|Info| Application Start
+2013-11-24 13:27:55.0091|Info| Application Start
+2013-11-24 13:28:19.0155|Info| Ќовый пользователь был зарегистрирован: ID = 499096c4-0f51-4923-b44c-826e0b47d874, Login = mimimi, IsVerified=Domain.User
+2013-11-24 13:28:19.8686|Info| New verification guid 61785e91-c816-4ef3-b23d-82f7728fdc51 has been sent to starshine1@mail.ru. Added to the db.
+2013-11-24 13:31:56.1619|Info| New verification guid f8d6a7a9-63c3-4b77-a7d8-8b2ec33b6739 has been sent to cute-yellow-elephant@ya.ru. Added to the db.
+2013-11-24 13:33:06.7200|Info| Ќовый пользователь был зарегистрирован: ID = 926d892f-fd64-4007-b3d2-7574b89f2f37, Login = elephant, IsVerified=Domain.User
+2013-11-24 14:05:42.1228|Info| Application Start
+2013-11-24 14:08:16.7446|Info| Application Start
+2013-11-24 18:46:03.8594|Info| Application Start
+2013-11-24 19:24:08.3669|Info| Application Start

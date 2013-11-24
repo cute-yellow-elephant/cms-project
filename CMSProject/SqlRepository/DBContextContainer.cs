@@ -13,6 +13,8 @@ namespace SqlRepository
     {
         public DbSet<Role> Roles { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Profile> Profiles { get; set; }
+        public DbSet<Verification> Verifications { get; set; }
 
         public DBContextContainer() : base("name=ApointDB") { }
 
@@ -22,7 +24,7 @@ namespace SqlRepository
                 .HasMany(r => r.Users).WithMany(u => u.Roles)
                 .Map(t => t.MapLeftKey("RoleID")
                     .MapRightKey("UserID")
-                    .ToTable("RolesUsers"));
+                    .ToTable("UsersInRoles"));
         }
     }
 }

@@ -1,0 +1,46 @@
+2013-11-23 15:34:21.0994|Info| Application Start
+2013-11-23 15:36:50.4749|Info| Application Start
+2013-11-23 15:38:09.9064|Info| Application Start
+2013-11-23 15:40:31.5325|Info| Application Start
+2013-11-23 15:40:57.1650|Info| Application Start
+2013-11-23 15:42:33.8555|Info| Application Start
+2013-11-23 15:54:35.8588|Info| Application Start
+2013-11-23 15:56:51.4996|Info| Application Start
+2013-11-23 16:06:03.0161|Info| Application Start
+2013-11-23 16:07:38.8466|Info| New verification guid 15faf482-9350-4f79-bb40-811e35b89162 has been sent to ssf. Added to the db.
+2013-11-23 16:14:43.9419|Info| Application Start
+2013-11-23 16:15:08.8864|Info| New verification guid bc6eb9c8-c8b0-4407-a992-9ea486c28a3b has been sent to dfd. Added to the db.
+2013-11-23 16:17:10.8053|Info| Application Start
+2013-11-23 16:40:46.1573|Info| Application Start
+2013-11-23 16:53:22.6215|Info| Application Start
+2013-11-23 16:58:16.1983|Info| Application Start
+2013-11-23 17:00:07.9727|Info| Application Start
+2013-11-23 17:04:22.0003|Info| Application Start
+2013-11-23 17:05:59.2408|Info| Application Start
+2013-11-23 17:06:39.0241|Info| New user was added: id=c7af2c6a-6368-45d4-ba95-3d52c75ac242, login=mimimi, is verified=Domain.User
+2013-11-23 17:06:39.8321|Info| New verification guid d4db7097-0219-4d3e-8752-13e4ca31869e has been sent to starshine1@mail.ru. Added to the db.
+2013-11-23 17:38:26.5662|Info| Application Start
+2013-11-23 17:40:11.5882|Info| Application Start
+2013-11-23 17:40:39.1528|Info| New user was added: id=4018c943-df2e-47d5-b5d4-bf7a6b39087d, login=mimimi, is verified=Domain.User
+2013-11-23 17:40:39.6698|Info| New verification guid 24d8eec9-1555-4b57-b745-41a0ca000c57 has been sent to starshine1@mail.ru. Added to the db.
+2013-11-23 17:43:46.4275|Info| Application Start
+2013-11-23 17:44:22.8046|Info| New user was added: id=612a7b68-ec16-457f-a20a-d0828dcefae2, login=mimimi, is verified=Domain.User
+2013-11-23 17:44:23.3416|Info| New verification guid ba36afe6-9928-4a6f-81c2-716520a4abc2 has been sent to starshine1@mail.ru. Added to the db.
+2013-11-23 18:02:23.2624|Info| Application Start
+2013-11-23 18:03:17.8915|Info| Application Start
+2013-11-23 18:08:21.9079|Info| New verification guid 02468104-c208-4cf9-b911-7eabac83791d has been sent to cute-yellow-elephant@ya.ru. Added to the db.
+2013-11-23 18:09:21.7043|Info| New user was added: id=dd1fcd1c-172e-4f67-85a3-cfeed1a37521, login=elephant, is verified=Domain.User
+2013-11-23 18:12:54.1725|Info| Application Start
+2013-11-23 18:18:27.1905|Info| Application Start
+2013-11-23 18:18:47.9567|Info| New user was added: id=80d1a265-fb37-4ac3-9d8e-77e221ca355d, login=mimimi, is verified=Domain.User
+2013-11-23 18:18:48.6177|Info| New verification guid d08712c4-7248-4cec-bad6-3ea26fb0348e has been sent to starshine1@mail.ru. Added to the db.
+2013-11-23 18:20:11.2035|Info| New verification guid acfee529-2687-4d27-badb-d2f3b8e540fe has been sent to cute-yellow-elephant@ya.ru. Added to the db.
+2013-11-23 18:20:40.7762|Info| New user was added: id=5b4efb09-1f63-49a1-b1a5-73b7a7b7775f, login=elephant, is verified=Domain.User
+2013-11-23 18:23:04.0043|Info| Application Start
+2013-11-23 18:54:11.3872|Info| Application Start
+2013-11-23 18:59:45.6063|Info| Application Start
+2013-11-23 19:00:04.7244|Info| New user was added: id=2c3acdc2-74d9-46b7-ab8d-455e4b941921, login=mimimi, is verified=Domain.User
+2013-11-23 19:00:05.2784|Info| New verification guid 4e4e7e80-aba6-41b1-87cb-d4d8840c2305 has been sent to starshine1@mail.ru. Added to the db.
+2013-11-23 19:04:11.1605|Info| Application Start
+2013-11-23 19:04:32.6537|Info| New user was added: id=2f7978fd-2df5-44e7-b709-a878a0418b6c, login=mimimi, is verified=Domain.User
+2013-11-23 19:04:33.3907|Info| New verification guid 6108a345-d0cd-42a9-95f8-683b4e3d1ece has been sent to starshine1@mail.ru. Added to the db.

@@ -1,0 +1,41 @@
+2013-11-22 00:00:05.2794|Info| Application Start
+2013-11-22 00:14:02.6183|Info| Application Start
+2013-11-22 00:19:09.6679|Info| Application Start
+2013-11-22 00:22:22.5489|Info| Application Start
+2013-11-22 00:50:04.6276|Info| Application Start
+2013-11-22 00:55:32.8894|Info| New user was added: id=da4ec7d3-dd10-4bcb-baf9-b23b6321f49b, login=mimimi, is verified=Domain.User
+2013-11-22 00:55:52.8676|Info| New verification guid bed6a186-d9f7-4872-8f29-ce6d5f9ca32a has been sent to starshine1@mail.ru. Added to the db.
+2013-11-22 00:59:10.7129|Info| Application Start
+2013-11-22 00:59:36.3934|Info| New user was added: id=40ec2a26-f504-4ec2-83aa-201dc072d771, login=mimimi, is verified=Domain.User
+2013-11-22 01:00:09.0762|Info| New verification guid 6d329783-8b6e-482c-ad11-148dd1551f6c has been sent to starshine1@mail.ru. Added to the db.
+2013-11-22 01:01:08.7906|Info| Application Start
+2013-11-22 01:02:02.8627|Info| New user was added: id=cddfc004-4bc4-4dbe-9335-effa0f522354, login=mimimi, is verified=Domain.User
+2013-11-22 01:02:07.2120|Info| New verification guid 32cfc192-913b-4980-a252-e6ed8928d927 has been sent to starshine1@mail.ru. Added to the db.
+2013-11-22 01:03:13.5698|Info| Application Start
+2013-11-22 01:29:17.2362|Info| New user was added: id=db072964-c9a3-45f0-9093-c733415696fe, login=mimimi, is verified=Domain.User
+2013-11-22 01:48:09.9330|Info| Application Start
+2013-11-22 01:48:33.3543|Info| New user was added: id=9638ec2e-35a1-4211-b182-1fa3c05d39da, login=mimimi, is verified=Domain.User
+2013-11-22 01:55:40.4958|Info| Application Start
+2013-11-22 01:56:03.6611|Info| New user was added: id=6bc6ee4a-219e-4843-860b-5d034dca2cb5, login=mimimi, is verified=Domain.User
+2013-11-22 01:57:52.0513|Info| Application Start
+2013-11-22 02:16:00.0385|Info| Application Start
+2013-11-22 02:22:07.5165|Info| Application Start
+2013-11-22 02:31:11.4337|Info| Application Start
+2013-11-22 02:31:38.4052|Info| New verification guid ea8e0ff5-2772-4279-ab69-24fa5243b4d3 has been sent to starshine1@mail.ru. Added to the db.
+2013-11-22 02:33:06.0472|Info| New verification guid f80b839d-7321-46f8-9ec9-fbddc5e1bced has been sent to starshine1@mail.ru. Added to the db.
+2013-11-22 02:40:47.3226|Info| Application Start
+2013-11-22 02:41:15.7902|Info| New verification guid ff27d7c2-879b-42c2-b80a-235fe9a0571d has been sent to cute-yellow-elephant@ya.ru. Added to the db.
+2013-11-22 02:57:41.9086|Info| Application Start
+2013-11-22 02:58:02.4828|Info| New verification guid d052e1e3-c630-4002-b29c-d07e0d8be87c has been sent to cute-yellow-elephant@ya.ru. Added to the db.
+2013-11-22 03:00:09.3401|Info| New user was added: id=a9d7af97-2be0-45db-9eeb-f2e6c85d8d2d, login=cute-yellow-elephant, is verified=Domain.User
+2013-11-22 03:02:26.1009|Info| New user was added: id=c9a60b2a-40a6-407d-ac70-9ac22ab2d11d, login=elephant, is verified=Domain.User
+2013-11-22 03:04:17.0772|Info| Application Start
+2013-11-22 03:04:54.5534|Info| New user was added: id=19e60c5e-279a-4f33-a650-ed17f81a50d8, login=mimimi, is verified=Domain.User
+2013-11-22 03:04:59.9637|Info| New verification guid 76db4727-4e7c-4e35-b353-9e6741218f96 has been sent to starshine1@mail.ru. Added to the db.
+2013-11-22 03:05:18.9098|Info| New verification guid 2176abfd-c2b8-44ae-807a-e1c6cc0c2c2e has been sent to cute-yellow-elephant@ya.ru. Added to the db.
+2013-11-22 03:07:28.1672|Info| New user was added: id=4a6bb5f6-859a-4f38-95a5-3198cc9e8252, login=elephant, is verified=Domain.User
+2013-11-22 03:22:16.4050|Info| Application Start
+2013-11-22 03:23:34.5364|Info| New user was added: id=5310dd16-fa03-47cf-910f-0e3543b14038, login=mimimi, is verified=Domain.User
+2013-11-22 03:23:35.1565|Info| New verification guid dc6ca5f4-b413-47aa-81dc-60b2241e6c41 has been sent to starshine1@mail.ru. Added to the db.
+2013-11-22 03:24:06.8243|Info| New verification guid 9e2044e0-4a7c-4545-80fb-020f249bf519 has been sent to cute-yellow-elephant@ya.ru. Added to the db.
+2013-11-22 03:24:43.8484|Info| New user was added: id=1bb97b57-0773-47d7-bc0c-3c80831ea1c1, login=elephant, is verified=Domain.User

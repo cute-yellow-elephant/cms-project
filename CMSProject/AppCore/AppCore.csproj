@@ -51,8 +51,10 @@
   <ItemGroup>
     <Compile Include="CoreHolder.cs" />
     <Compile Include="EntitiesBC\BaseEntityBC.cs" />
+    <Compile Include="EntitiesBC\ProfileBC.cs" />
     <Compile Include="EntitiesBC\RoleBC.cs" />
     <Compile Include="EntitiesBC\UserBC.cs" />
+    <Compile Include="EntitiesBC\VerificationBC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

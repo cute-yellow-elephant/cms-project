@@ -25,6 +25,8 @@ namespace SqlRepository.Repositories
 
         public virtual T Read(Guid id)
         {
+            if (_table.Find(id) == null)
+                return null;
             return _table.Find(id);
         }
 
@@ -45,6 +47,7 @@ namespace SqlRepository.Repositories
                 entity.IsDeleted = true;
                 this.Update(entity);
             }
+            else throw new Exception(String.Format("Не существует объекта с ID = {0}. Удаление невозможно.", id));
         }
 
         public virtual T Find(string name) { return null; }
