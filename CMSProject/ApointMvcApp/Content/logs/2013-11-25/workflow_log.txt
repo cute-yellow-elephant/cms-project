@@ -2,3 +2,8 @@
 2013-11-25 01:57:06.3875|Info| Пользователь mimimi вышел из системы
 2013-11-25 02:01:00.9820|Info| Пользователь mimimi вошел в систему
 2013-11-25 02:01:03.7491|Info| Пользователь mimimi вышел из системы
+2013-11-25 13:57:43.0711|Info| Новый пользователь был зарегистрирован: ID = 5c47b5dd-fc73-4897-963a-585fcc572322, Login = mimimi, IsVerified=Domain.User
+2013-11-25 13:57:44.0492|Info| New verification guid 2437eb0c-0182-45d1-82af-a36e8309ab93 has been sent to starshine1@mail.ru. Added to the db.
+2013-11-25 14:01:10.0950|Info| Пользователь mimimi вошел в систему
+2013-11-25 14:01:19.4945|Info| New verification guid d48053b2-5a5c-4552-81a7-7887f04219dd has been sent to cute-yellow-elephant@ya.ru. Added to the db.
+2013-11-25 14:01:49.1372|Info| Пользователь mimimi вышел из системы

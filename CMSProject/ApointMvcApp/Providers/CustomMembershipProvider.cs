@@ -158,6 +158,7 @@ namespace ApointMvcApp.Providers
             int numberOnline = 0;
             var core = new CoreHolder();
             int userIsOnlineTimeWindow = 20;
+            if (core.UserRepository.ReadAll() == null) return 0;
             foreach (var x in core.UserRepository.ReadAll())
             {
                 TimeSpan span = DateTime.UtcNow - x.LastVisitDate;

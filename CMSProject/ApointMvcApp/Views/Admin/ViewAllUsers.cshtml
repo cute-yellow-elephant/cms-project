@@ -16,7 +16,7 @@
          <ol>
         @foreach (MembershipUser r in Model)
         {
-            <li>Login:@r.UserName / Email:@r.Email / Creation Date:@r.CreationDate / Last Visit Date:@r.LastLoginDate / Is Verified: @r.IsApproved / Is Deleted: @r.IsLockedOut </li>   
+            <li>Login:@r.UserName / Email:@r.Email / Creation Date:@r.CreationDate / Last Visit Date:@r.LastActivityDate / Is Verified: @r.IsApproved / Is Deleted: @r.IsLockedOut </li>   
         }
         </ol>     
     </div>
