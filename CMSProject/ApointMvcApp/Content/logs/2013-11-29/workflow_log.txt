@@ -1,0 +1,17 @@
+2013-11-29 18:55:02.3220|Info| Пользователь mimimi вошел в систему
+2013-11-29 19:00:18.1991|Info| New post was added: Тестовый пост, ae6d42d6-e653-4667-8bce-86fbd74f12f0
+2013-11-29 19:32:44.0134|Info| Пользователь mimimi вошел в систему
+2013-11-29 20:06:16.8355|Info| Пользователь mimimi вошел в систему
+2013-11-29 20:23:25.7243|Info| New post was added: Второй, лал, 5f51475d-529d-4b96-9f90-2546bdd85fbe
+2013-11-29 20:54:55.3744|Info| Пользователь mimimi вошел в систему
+2013-11-29 20:55:32.4885|Info| New post was added: теги и еще раз теги, a76bba4d-7b91-4887-a2e7-beafb5d01c76
+2013-11-29 20:55:32.6005|Info| New tag was added: теги, 342792dd-7888-41d4-afda-e66f3016fba6
+2013-11-29 20:56:52.8471|Info| New tag was added: оло, e2750bb7-bc88-4b8a-a150-1d62e5db0bee
+2013-11-29 20:58:08.2124|Info| New tag was added: теги, 12eadff0-7de0-4d15-a8e9-82b27ff8db67
+2013-11-29 20:58:30.5837|Info| New tag was added: ну, ea7bf8c9-1d35-4e3d-8ac5-8c3af6bdd80e
+2013-11-29 20:58:32.7118|Info| New tag was added: же, ce3763a7-7c5f-4f71-aa31-6ddbcfb81e61
+2013-11-29 20:58:32.7949|Info| New tag was added: работайте, 60a414ed-e6c1-4d26-bea4-f03a1effe279
+2013-11-29 20:59:20.6846|Info| New post was added: Третий блин оладушком, f71a86ef-65b5-4199-a013-7614e9628703
+2013-11-29 20:59:20.8856|Info| New tag was added: дада, a8c59da1-6341-49aa-b4d2-0bc255bc7692
+2013-11-29 20:59:20.9616|Info| New tag was added: снова, b733bd11-bf85-4586-a3e2-6ec793792580
+2013-11-29 21:32:22.2049|Info| Пользователь mimimi вышел из системы

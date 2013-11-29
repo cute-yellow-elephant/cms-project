@@ -3,3 +3,6 @@ D:\workwork\cms-project\CMSProject\Domain\bin\Debug\Domain.pdb
 D:\workwork\cms-project\CMSProject\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
 D:\workwork\cms-project\CMSProject\Domain\obj\Debug\Domain.dll
 D:\workwork\cms-project\CMSProject\Domain\obj\Debug\Domain.pdb
+D:\workwork\cms-project\CMSProject\Domain\bin\Debug\IndexAttrEF.dll
+D:\workwork\cms-project\CMSProject\Domain\bin\Debug\EntityFramework.dll
+D:\workwork\cms-project\CMSProject\Domain\bin\Debug\IndexAttrEF.pdb

@@ -11,6 +11,8 @@ using SqlRepository.Repositories;
 using System.Data.Entity;
 using Ninject;
 using AppCore.EntitiesBC;
+using IndexAttrEF;
+using SqlRepository.Migrations;
 
 namespace AppCore
 {
@@ -22,6 +24,8 @@ namespace AppCore
         public RoleBC RoleRepository { get; set; }
         public ProfileBC ProfileRepository { get; set; }
         public VerificationBC VerificationRepository { get; set; }
+        public PostBC PostRepository { get; set; }
+        public TagBC TagRepository { get; set; }
 
         public void Submit()
         {
@@ -34,21 +38,22 @@ namespace AppCore
             RoleRepository = new RoleBC(_logger, _dbcontext);
             ProfileRepository = new ProfileBC(_logger, _dbcontext);
             VerificationRepository = new VerificationBC(_logger, _dbcontext);
-
+            PostRepository = new PostBC(_logger, _dbcontext);
+            TagRepository = new TagBC(_logger, _dbcontext);
         }
 
         public CoreHolder()
         {
             var serviceLocator = new StandardKernel(new NinjectLoggerCreator());
             _logger = serviceLocator.Get<ILogger>();
-            InitializeDbIfNotExists();
+            InitializeDb();
             _dbcontext = new DBContextContainer();
             InitializeRepositories();
         }
 
-        public static void InitializeDbIfNotExists()
+        public static void InitializeDb()
         {
-            Database.SetInitializer<DBContextContainer>(new DBInitializer());
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<DBContextContainer, Configuration>());
         }
 
     }

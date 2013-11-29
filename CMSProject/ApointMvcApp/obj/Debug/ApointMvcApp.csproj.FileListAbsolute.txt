@@ -27,7 +27,6 @@ D:\workwork\cms-project\CMSProject\ApointMvcApp\bin\AppCore.pdb
 D:\workwork\cms-project\CMSProject\ApointMvcApp\bin\Domain.pdb
 D:\workwork\cms-project\CMSProject\ApointMvcApp\bin\Infrastructure.pdb
 D:\workwork\cms-project\CMSProject\ApointMvcApp\bin\NLog.xml
-D:\workwork\cms-project\CMSProject\ApointMvcApp\bin\EntityFramework.xml
 D:\workwork\cms-project\CMSProject\ApointMvcApp\bin\Newtonsoft.Json.xml
 D:\workwork\cms-project\CMSProject\ApointMvcApp\bin\System.Net.Http.Formatting.xml
 D:\workwork\cms-project\CMSProject\ApointMvcApp\bin\System.Web.Http.xml
@@ -50,3 +49,4 @@ D:\workwork\cms-project\CMSProject\ApointMvcApp\bin\ActionMailer.Net.pdb
 D:\workwork\cms-project\CMSProject\ApointMvcApp\bin\ActionMailer.Net.xml
 D:\workwork\cms-project\CMSProject\ApointMvcApp\bin\ActionMailer.Net.Mvc.pdb
 D:\workwork\cms-project\CMSProject\ApointMvcApp\bin\ActionMailer.Net.Mvc.xml
+D:\workwork\cms-project\CMSProject\ApointMvcApp\bin\EnsureThat.dll

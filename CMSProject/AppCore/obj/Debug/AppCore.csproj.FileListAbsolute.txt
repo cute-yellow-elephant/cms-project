@@ -12,10 +12,12 @@ D:\workwork\cms-project\CMSProject\AppCore\bin\Debug\NLog.dll
 D:\workwork\cms-project\CMSProject\AppCore\bin\Debug\Domain.pdb
 D:\workwork\cms-project\CMSProject\AppCore\bin\Debug\Infrastructure.pdb
 D:\workwork\cms-project\CMSProject\AppCore\bin\Debug\SqlRepository.pdb
-D:\workwork\cms-project\CMSProject\AppCore\bin\Debug\EntityFramework.xml
 D:\workwork\cms-project\CMSProject\AppCore\bin\Debug\EntityFramework.SqlServer.xml
 D:\workwork\cms-project\CMSProject\AppCore\bin\Debug\Ninject.pdb
 D:\workwork\cms-project\CMSProject\AppCore\bin\Debug\Ninject.xml
 D:\workwork\cms-project\CMSProject\AppCore\bin\Debug\NLog.xml
 D:\workwork\cms-project\CMSProject\AppCore\obj\Debug\AppCore.dll
 D:\workwork\cms-project\CMSProject\AppCore\obj\Debug\AppCore.pdb
+D:\workwork\cms-project\CMSProject\AppCore\bin\Debug\EnsureThat.dll
+D:\workwork\cms-project\CMSProject\AppCore\bin\Debug\IndexAttrEF.dll
+D:\workwork\cms-project\CMSProject\AppCore\bin\Debug\IndexAttrEF.pdb

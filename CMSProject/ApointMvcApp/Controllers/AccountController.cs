@@ -37,18 +37,11 @@ namespace ApointMvcApp.Controllers
                 {
                     if (Membership.ValidateUser(model.UserName, model.Password))
                     {
-                        FormsAuthentication.SetAuthCookie(model.UserName, false);
+                        FormsAuthentication.SetAuthCookie(model.UserName, false); 
                         core.UserRepository.ChangeOnlineState(model.UserName, true);
                         core.Submit();
-                        if (Url.IsLocalUrl(returnUrl))
-                            return Redirect(returnUrl);
-                        else
-                        {
-                            logger.Info(String.Format("Пользователь {0} вошел в систему", model.UserName));
-                            if (User.IsInRole("Admin"))
-                                return RedirectToRoute("AdminMainPage");
-                            else return RedirectToRoute("UserMainPage");
-                        }
+                        logger.Info(String.Format("Пользователь {0} вошел в систему", model.UserName));
+                        FormsAuthentication.RedirectFromLoginPage(model.UserName, false);
                     }
                 }
                 catch(Exception e) { ModelState.AddModelError("",e.Message); }

@@ -15,7 +15,10 @@
         <h2>Вы находитесь на главной странице обычного пользователя данного приложения.</h2>
         <h3>По идее, вы что-то можете делать, но пока что хз что. </h3>
         <h4>Развлекайтесь.</h4>
+
         <ol>
+            <li>@Html.RouteLink("Просмотреть карту сайта в xml","XmlSitemap")</li>
+            <li>@Html.RouteLink("Работа с блогом","BlogWork")</li>
             @if(HttpContext.Current.User.IsInRole("Admin")){
                 <li>@Html.RouteLink("На главную администратора", "AdminMainPage")</li>}
             <li>

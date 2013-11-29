@@ -12,7 +12,7 @@ namespace ApointMvcApp.Filters
     {
         public override void OnActionExecuting(ActionExecutingContext filterContext)
         {
-            CoreHolder.InitializeDbIfNotExists();         
+           CoreHolder.InitializeDb();         
         }
     }
 }

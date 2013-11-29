@@ -1,0 +1,37 @@
+﻿@model Domain.Post
+@{
+    ViewBag.Title = Model.Title;
+}
+
+<h2>@Model.Title</h2>
+<h3>Tags:</h3>
+<ul>
+    @if (Model.Tags != null)
+    {
+        foreach (var t in Model.Tags)
+        {
+             <li>@t.Name</li>
+        }
+    }
+</ul>
+____________________________________
+<div>
+    @Html.Raw(Model.Content)
+</div>
+____________________________________
+
+<ol>
+            <li>@Html.RouteLink("Удалить пост", "DeletePost", new { id = Model.ID.ToString()})</li>
+            <li>@Html.RouteLink("Изменить пост","EditPost", new { id = Model.ID.ToString()})</li>
+            @if(HttpContext.Current.User.IsInRole("Admin")){
+                <li>@Html.RouteLink("На главную администратора", "AdminMainPage")</li>}
+                <li>@Html.RouteLink("На главную обычного юзера","UserMainPage")</li>
+            <li>@Html.RouteLink("Вернуться","BlogWork")</li>
+            <li>
+                 @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" })) 
+                 {
+                    @Html.AntiForgeryToken()
+                    <a href="javascript:document.getElementById('logoutForm').submit()">Разлогиниться</a>
+                 }
+            </li>
+        </ol>  

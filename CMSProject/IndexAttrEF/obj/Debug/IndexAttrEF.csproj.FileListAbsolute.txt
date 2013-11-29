@@ -1,0 +1,8 @@
+D:\workwork\cms-project\CMSProject\IndexAttrEF\bin\Debug\IndexAttrEF.dll.config
+D:\workwork\cms-project\CMSProject\IndexAttrEF\bin\Debug\IndexAttrEF.dll
+D:\workwork\cms-project\CMSProject\IndexAttrEF\bin\Debug\IndexAttrEF.pdb
+D:\workwork\cms-project\CMSProject\IndexAttrEF\bin\Debug\EntityFramework.dll
+D:\workwork\cms-project\CMSProject\IndexAttrEF\bin\Debug\EntityFramework.SqlServer.dll
+D:\workwork\cms-project\CMSProject\IndexAttrEF\bin\Debug\EntityFramework.SqlServer.xml
+D:\workwork\cms-project\CMSProject\IndexAttrEF\obj\Debug\IndexAttrEF.dll
+D:\workwork\cms-project\CMSProject\IndexAttrEF\obj\Debug\IndexAttrEF.pdb

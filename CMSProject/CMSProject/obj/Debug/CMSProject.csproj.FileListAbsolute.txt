@@ -22,3 +22,4 @@ D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\SqlRepository.pdb
 D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\Ninject.pdb
 D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\Ninject.xml
 D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\NLog.xml
+D:\workwork\cms-project\CMSProject\CMSProject\bin\Debug\EnsureThat.dll

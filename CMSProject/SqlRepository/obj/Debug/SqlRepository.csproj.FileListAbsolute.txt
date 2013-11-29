@@ -6,7 +6,8 @@ D:\workwork\cms-project\CMSProject\SqlRepository\bin\Debug\Domain.dll
 D:\workwork\cms-project\CMSProject\SqlRepository\bin\Debug\EntityFramework.dll
 D:\workwork\cms-project\CMSProject\SqlRepository\bin\Debug\EntityFramework.SqlServer.dll
 D:\workwork\cms-project\CMSProject\SqlRepository\bin\Debug\Domain.pdb
-D:\workwork\cms-project\CMSProject\SqlRepository\bin\Debug\EntityFramework.xml
 D:\workwork\cms-project\CMSProject\SqlRepository\bin\Debug\EntityFramework.SqlServer.xml
 D:\workwork\cms-project\CMSProject\SqlRepository\obj\Debug\SqlRepository.dll
 D:\workwork\cms-project\CMSProject\SqlRepository\obj\Debug\SqlRepository.pdb
+D:\workwork\cms-project\CMSProject\SqlRepository\bin\Debug\IndexAttrEF.dll
+D:\workwork\cms-project\CMSProject\SqlRepository\bin\Debug\IndexAttrEF.pdb

@@ -5,6 +5,6 @@ D:\workwork\cms-project\CMSProject\Infrastructure\bin\Debug\NLog.dll
 D:\workwork\cms-project\CMSProject\Infrastructure\bin\Debug\Ninject.pdb
 D:\workwork\cms-project\CMSProject\Infrastructure\bin\Debug\Ninject.xml
 D:\workwork\cms-project\CMSProject\Infrastructure\bin\Debug\NLog.xml
-D:\workwork\cms-project\CMSProject\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
 D:\workwork\cms-project\CMSProject\Infrastructure\obj\Debug\Infrastructure.dll
 D:\workwork\cms-project\CMSProject\Infrastructure\obj\Debug\Infrastructure.pdb
+D:\workwork\cms-project\CMSProject\Infrastructure\bin\Debug\EnsureThat.dll

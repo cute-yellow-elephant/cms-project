@@ -26,7 +26,7 @@ namespace AppCore.EntitiesBC
             catch (Exception error)
             {
                 _logger.WriteIfErrorOccured(error.Message);
-                return null;
+                throw new Exception("BaseEntityBC<T>.Read: "+error.Message);
             }
         }
 

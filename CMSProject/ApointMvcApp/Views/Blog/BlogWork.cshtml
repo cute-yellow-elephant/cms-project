@@ -1,0 +1,44 @@
+﻿@model List<Domain.Post>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Работа с блогом</title>
+</head>
+<body>
+    <div>
+        <h2>Это - страница работы с блогом.</h2>
+        <h3>Он зачем-то нужен, но зачем - вопрос. </h3>
+        <h4>И опять-таки, развлекайтесь.</h4>
+
+        <h4><b>Посты в блоге:</b></h4>
+        <ul>
+        @if(Model != null){
+            foreach (var p in Model)
+            {
+                <li>@Html.RouteLink(p.Title,"ViewPost", new { id= p.ID})</li>
+            }
+        }
+        </ul>
+        <ol>
+            <li>@Html.RouteLink("Создать пост","CreatePost")</li>
+            @if(HttpContext.Current.User.IsInRole("Admin")){
+                <li>@Html.RouteLink("На главную администратора", "AdminMainPage")</li>}
+                <li>@Html.RouteLink("На главную обычного юзера","UserMainPage")</li>
+            <li>
+                 @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" })) 
+                 {
+                    @Html.AntiForgeryToken()
+                    <a href="javascript:document.getElementById('logoutForm').submit()">Разлогиниться</a>
+                 }
+            </li>
+        </ol>        
+        
+    </div>
+</body>
+</html>

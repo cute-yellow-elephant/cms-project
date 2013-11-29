@@ -9,6 +9,7 @@ using System.Web.WebPages;
 using Microsoft.Internal.Web.Utils;
 using AppCore;
 using Domain;
+using System.Security.Principal;
 
 namespace ApointMvcApp.Providers
 {
